@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  ATTrackingView.swift
 //  ATTrackingApp
 //
 //  Created by sasaki.ken on 2021/11/20.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct ATTrackingView: View {
     var body: some View {
         Button(action: {
             
@@ -26,6 +26,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ATTrackingView()
     }
 }

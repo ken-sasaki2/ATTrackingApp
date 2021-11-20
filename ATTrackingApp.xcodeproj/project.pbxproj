@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		D8B6A8A52748DAF90027F58E /* ATTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6A8A42748DAF90027F58E /* ATTrackingApp.swift */; };
-		D8B6A8A72748DAF90027F58E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6A8A62748DAF90027F58E /* ContentView.swift */; };
+		D8B6A8A72748DAF90027F58E /* ATTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6A8A62748DAF90027F58E /* ATTrackingView.swift */; };
 		D8B6A8A92748DAFA0027F58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B6A8A82748DAFA0027F58E /* Assets.xcassets */; };
 		D8B6A8AC2748DAFA0027F58E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B6A8AB2748DAFA0027F58E /* Preview Assets.xcassets */; };
 		D8B6A8B62748DAFB0027F58E /* ATTrackingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6A8B52748DAFB0027F58E /* ATTrackingAppTests.swift */; };
 		D8B6A8C02748DAFB0027F58E /* ATTrackingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6A8BF2748DAFB0027F58E /* ATTrackingAppUITests.swift */; };
 		D8B6A8C22748DAFB0027F58E /* ATTrackingAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6A8C12748DAFB0027F58E /* ATTrackingAppUITestsLaunchTests.swift */; };
+		D8CECD342748DE69007E426A /* ATTrackingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECD332748DE69007E426A /* ATTrackingViewModel.swift */; };
+		D8CECD362748DE82007E426A /* ATTrackingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECD352748DE82007E426A /* ATTrackingRepository.swift */; };
+		D8CECD382748DE93007E426A /* ATTrackingRepositoryInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECD372748DE93007E426A /* ATTrackingRepositoryInterface.swift */; };
+		D8CECD3A2748DEA7007E426A /* ATTrackingDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECD392748DEA7007E426A /* ATTrackingDataStore.swift */; };
+		D8CECD3C2748DEE2007E426A /* TrackingStatusType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CECD3B2748DEE2007E426A /* TrackingStatusType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		D8B6A8A12748DAF90027F58E /* ATTrackingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATTrackingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B6A8A42748DAF90027F58E /* ATTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTrackingApp.swift; sourceTree = "<group>"; };
-		D8B6A8A62748DAF90027F58E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D8B6A8A62748DAF90027F58E /* ATTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTrackingView.swift; sourceTree = "<group>"; };
 		D8B6A8A82748DAFA0027F58E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8B6A8AB2748DAFA0027F58E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D8B6A8B12748DAFB0027F58E /* ATTrackingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATTrackingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,11 @@
 		D8B6A8BB2748DAFB0027F58E /* ATTrackingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ATTrackingAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B6A8BF2748DAFB0027F58E /* ATTrackingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTrackingAppUITests.swift; sourceTree = "<group>"; };
 		D8B6A8C12748DAFB0027F58E /* ATTrackingAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTrackingAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D8CECD332748DE69007E426A /* ATTrackingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTrackingViewModel.swift; sourceTree = "<group>"; };
+		D8CECD352748DE82007E426A /* ATTrackingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTrackingRepository.swift; sourceTree = "<group>"; };
+		D8CECD372748DE93007E426A /* ATTrackingRepositoryInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTrackingRepositoryInterface.swift; sourceTree = "<group>"; };
+		D8CECD392748DEA7007E426A /* ATTrackingDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTrackingDataStore.swift; sourceTree = "<group>"; };
+		D8CECD3B2748DEE2007E426A /* TrackingStatusType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackingStatusType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +144,7 @@
 		D8B6A8CE2748DC350027F58E /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				D8CECD332748DE69007E426A /* ATTrackingViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -141,6 +152,8 @@
 		D8B6A8CF2748DC430027F58E /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				D8CECD352748DE82007E426A /* ATTrackingRepository.swift */,
+				D8CECD372748DE93007E426A /* ATTrackingRepositoryInterface.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -148,6 +161,7 @@
 		D8B6A8D02748DC500027F58E /* DataStore */ = {
 			isa = PBXGroup;
 			children = (
+				D8CECD392748DEA7007E426A /* ATTrackingDataStore.swift */,
 			);
 			path = DataStore;
 			sourceTree = "<group>";
@@ -155,7 +169,7 @@
 		D8B6A8D12748DC5A0027F58E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				D8B6A8A62748DAF90027F58E /* ContentView.swift */,
+				D8B6A8A62748DAF90027F58E /* ATTrackingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,6 +177,7 @@
 		D8B6A8D22748DC5E0027F58E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D8CECD3B2748DEE2007E426A /* TrackingStatusType.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -297,8 +312,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B6A8A72748DAF90027F58E /* ContentView.swift in Sources */,
+				D8B6A8A72748DAF90027F58E /* ATTrackingView.swift in Sources */,
+				D8CECD362748DE82007E426A /* ATTrackingRepository.swift in Sources */,
+				D8CECD3C2748DEE2007E426A /* TrackingStatusType.swift in Sources */,
+				D8CECD342748DE69007E426A /* ATTrackingViewModel.swift in Sources */,
 				D8B6A8A52748DAF90027F58E /* ATTrackingApp.swift in Sources */,
+				D8CECD382748DE93007E426A /* ATTrackingRepositoryInterface.swift in Sources */,
+				D8CECD3A2748DEA7007E426A /* ATTrackingDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
