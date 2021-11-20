@@ -8,9 +8,14 @@
 import SwiftUI
 
 struct ATTrackingView: View {
+    private let aTTrackingVM = ATTrackingViewModel()
+    
     var body: some View {
         Button(action: {
-            
+            let status = aTTrackingVM.getTrackingStatus()
+            if status == .notDetermined {
+                aTTrackingVM.requestTrackingAuth()
+            }
         }) {
             Text("アラート表示")
                 .foregroundColor(.white)

@@ -7,6 +7,24 @@
 
 import Foundation
 
-class ATTrackingViewModel {
+class ATTrackingViewModel: NSObject {
+    private let repository: ATTrackingRepositoryInterface
     
+    init(repository: ATTrackingRepositoryInterface) {
+        self.repository = repository
+        super.init()
+    }
+    
+    override convenience init() {
+        self.init(repository: RepositoryLocator.getATTrackingRepository())
+    }
+    
+    func getTrackingStatus() -> TrackingStatusType {
+       let status = repository.getTrackingStatusType()
+        return status
+    }
+    
+    func requestTrackingAuth() {
+        repository.requestTrackingAuth()
+    }
 }

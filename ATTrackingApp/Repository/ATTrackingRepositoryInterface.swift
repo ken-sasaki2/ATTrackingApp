@@ -8,5 +8,6 @@
 import Foundation
 
 protocol ATTrackingRepositoryInterface {
-    
+    func getTrackingStatusType() -> TrackingStatusType
+    func requestTrackingAuth()
 }

@@ -8,5 +8,6 @@
 import Foundation
 
 enum TrackingStatusType {
-    
+    case notDetermined
+    case `default`
 }

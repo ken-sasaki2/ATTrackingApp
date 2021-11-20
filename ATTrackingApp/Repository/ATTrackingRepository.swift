@@ -8,5 +8,14 @@
 import Foundation
 
 class ATTrackingRepository: ATTrackingRepositoryInterface {
+    private let dataStore = ATTrackingDataStore()
     
+    func getTrackingStatusType() -> TrackingStatusType {
+        let status = dataStore.getTrackingStatusType()
+        return status
+    }
+    
+    func requestTrackingAuth() {
+        dataStore.requestTrackingAuth()
+    }
 }

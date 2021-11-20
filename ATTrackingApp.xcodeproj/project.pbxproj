@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D800E2092748E8CC00C09021 /* RepositoryLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D800E2082748E8CC00C09021 /* RepositoryLocator.swift */; };
 		D8B6A8A52748DAF90027F58E /* ATTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6A8A42748DAF90027F58E /* ATTrackingApp.swift */; };
 		D8B6A8A72748DAF90027F58E /* ATTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B6A8A62748DAF90027F58E /* ATTrackingView.swift */; };
 		D8B6A8A92748DAFA0027F58E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B6A8A82748DAFA0027F58E /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D800E2082748E8CC00C09021 /* RepositoryLocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryLocator.swift; sourceTree = "<group>"; };
 		D8B6A8A12748DAF90027F58E /* ATTrackingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATTrackingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B6A8A42748DAF90027F58E /* ATTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTrackingApp.swift; sourceTree = "<group>"; };
 		D8B6A8A62748DAF90027F58E /* ATTrackingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATTrackingView.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 			children = (
 				D8CECD352748DE82007E426A /* ATTrackingRepository.swift */,
 				D8CECD372748DE93007E426A /* ATTrackingRepositoryInterface.swift */,
+				D800E2082748E8CC00C09021 /* RepositoryLocator.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				D8CECD342748DE69007E426A /* ATTrackingViewModel.swift in Sources */,
 				D8B6A8A52748DAF90027F58E /* ATTrackingApp.swift in Sources */,
 				D8CECD382748DE93007E426A /* ATTrackingRepositoryInterface.swift in Sources */,
+				D800E2092748E8CC00C09021 /* RepositoryLocator.swift in Sources */,
 				D8CECD3A2748DEA7007E426A /* ATTrackingDataStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,7 +499,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ken.ATTrackingApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ATTrackingApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -526,7 +530,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ken.ATTrackingApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = ATTrackingApp;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
